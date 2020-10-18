@@ -1,0 +1,51 @@
+<div class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- Button for smallest screens -->
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+      >
+        <span class="icon-bar"></span><span class="icon-bar"></span
+        ><span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" [routerLink]="['']">
+        <img src="assets/images/logo.png" alt="Techro HTML5 template"
+      /></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right mainNav">
+        <li class="active"><a [routerLink]="['']">Home</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+            >C Programming <b class="caret"></b
+          ></a>
+          <ul class="dropdown-menu">
+            <li><a [routerLink]="['/importanceofprogramming']">Importance of Programming </a></li>
+            <li><a [routerLink]="['/features']">Features</a></li>
+            <li><a [routerLink]="['/applications']">Applications</a></li>
+            <li><a [routerLink]="['/histroyofc']">Histroy of C</a></li>
+            <li><a [routerLink]="['/whyC']">Features of C</a></li>
+            <li><a [routerLink]="['/procedures']">Procedures</a></li>
+            <li><a [routerLink]="['/flowchart']">Flowchart</a></li>
+            <li><a [routerLink]="['/algorithm']">Algorithm</a></li>
+            <li><a [routerLink]="['/installation']">Installation</a></li>
+            <li><a [routerLink]="['/helloworld']">Hello World</a></li>
+            <li><a [routerLink]="['/datatypes']">Data Types</a></li>
+            <li><a [routerLink]="['/variabledeclaration']">Variable Declaration</a></li>
+            <li><a [routerLink]="['/operators']">Operators</a></li>
+            <li><a [routerLink]="['/ifelse']">If,If...Else,IF...Elseif</a></li>
+            <li><a [routerLink]="['/loops']">Loops</a></li>
+            <li><a [routerLink]="['/switch']">Switch</a></li>
+          </ul>
+        </li>
+        <li><a [routerLink]="['/about']"  >About</a></li>
+        <!-- <li><a href="contact.html">Contact</a></li> -->
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</div>
